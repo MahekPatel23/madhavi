@@ -1,0 +1,263 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.navbar{
+    margin: 0;
+    padding: 0;
+}
+
+.offer{
+    width: 100%;
+    background-color: black;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: baseline;
+    padding: 10px;
+    font-weight: bold;
+}
+
+.offer a{
+    margin-left: 20px;
+    font-weight: bold;
+    border-radius: 22px;
+}
+
+.nav{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    padding: 10px;
+}
+
+.nav .first{
+    display: flex;
+    align-items: center;
+}
+
+.nav .last{
+    display: flex;
+    align-items: center;
+}
+.nav .last .options{
+    display: flex;
+    align-items: center;
+}
+
+.nav .first .logo {
+    color:  #FC3441;
+    font-weight: bold;
+    font-size: 30px;
+}
+
+.nav .last .options a{
+    text-decoration: none;
+    color: rgb(83, 83, 83);
+    font-weight: bold;
+    margin: 0px 15px;
+}
+
+.nav .menu {
+    display: flex;
+    margin-left: 10px;
+}
+
+.nav .last .options a:hover{
+    color: black;
+}
+
+.dropdown .btn-light, .dropdown .btn-light:active{
+    background-color: rgb(255, 255, 255) !important;
+    border: none !important;
+}
+
+.nav .last .icons span{
+    margin: 0px 10px;
+}
+
+.buttons button{
+    border: 1px solid rgb(56, 56, 56);
+    color: rgb(56, 56, 56);
+    font-weight: bold;
+    border-radius: 22px;
+    margin: 0px 10px;
+}
+
+.buttons button:hover{
+    background-color:  #FC3441;
+    color: white;
+}
+
+.buttons .sign{
+    background-color: rgb(190, 190, 190);
+}
+
+.slogan{
+    width: 100%;
+    text-align: center;
+}
+
+.slogan h1{
+    font-size: 45px;
+    font-weight: bold;
+}
+.newmenu{
+    width: 100%;
+    display: flex;
+    justify-content: center !important;
+    margin-left: 20px;
+    margin-top: 15px;
+}
+.newmenu button{
+    color: black;
+    text-decoration: none;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-left: 50px;
+}
+
+.newmenu button:hover{
+    border-bottom: 3px solid #FC3441;
+    color: #FC3441;
+}
+.search{
+    width: 100%;
+    display: flex;
+    margin: 30px 150px;
+    height: 50px;
+}
+
+.search .input-group{
+    height: 100%;
+}
+
+.d-button{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: white !important;
+    color: black !important;
+    border-color: rgb(208, 208, 208) !important;
+}
+
+.d-button:active, .d-button:hover{
+    background-color: white !important;
+    color: black !important;
+}
+
+.d-button span{
+    margin: 2px;
+}
+
+.s-button {
+    color: white;
+    background-color:  #FC3441;
+    padding: 0px 20px;
+}
+.s-button span {
+    color: white;
+    font-size: 30px;
+}
+.s-button:hover {
+    background-color: rgb(205, 42, 42);
+}
+
+.s2{
+    border: 1px solid black;
+    justify-content: center;
+    display: flex;
+    align-items: center;
+    margin-left: 40px;
+}
+
+.s2:hover{
+    background-color: rgb(255, 255, 255) !important;
+}
+
+.s2 p {
+    margin: 0;
+    padding: 0;
+    margin-left: 15px;
+    width: 140px;
+}
+
+.main{
+    width: 100%;
+}
+.newbtn{
+    width: 100%;
+    text-align: center;
+    padding-bottom: 30px;
+}
+.newbtn button{
+    background-color:  #FC3441;
+    color: white;
+    font-weight: bold;
+    border-radius: 25px;
+    border: none;
+    width: 320px;
+    height: 48px;
+}
+.newbtn button:hover{
+    background-color: rgb(205, 42, 42);
+}
+.big{
+    width: 100%;
+    background-color: #E5EDFF;
+}
+.big1 h2{
+    color: #000000DE;
+    text-align: center;
+}
+.big2{
+    display: flex;
+    justify-content: center;
+}
+.big2 div{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-left: 50px;
+}
+.big2 span{
+    color: rgb(42, 42, 184);
+    font-size: 70px;
+    align-items: center !important;
+}
+.big2 i{
+    color: rgb(42, 42, 184);
+    font-size: 70px;
+    align-items: center !important;
+}
+.big2 h4{
+    color: #000000DE;
+}
+.big2 p{
+    color: #00000099;
+    text-align: center;
+}
+
+.end{
+    padding-top: 30px;
+}
+.end p{
+
+    text-align: center;
+    color: #000000DE;
+}
+.end p a{
+    text-decoration: none;
+    color: #0070f0;
+    font-weight: bold;
+}
+
+#l-icon {
+    font-variation-settings:
+    'FILL' 0,
+    'wght' 300,
+    'GRAD' 0,
+    'opsz' 24
+  }
