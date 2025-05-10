@@ -11,7 +11,7 @@
 .offer{
     width: 100%;
     background-color: black;
-    color: white;
+    color: rgb(136, 115, 115);
     display: flex;
     justify-content: center;
     align-items: baseline;
